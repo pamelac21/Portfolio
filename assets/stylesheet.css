@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
 :root {
@@ -25,7 +26,6 @@ body {
     padding: 15px;
     margin-left: 20px;
     float: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -43,6 +43,7 @@ h1 {
 .header ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {
@@ -51,35 +52,40 @@ a {
     font-size: 25px;
 }
 
+a:hover {
+    text-decoration-style: wavy;
+    opacity: 50%;
+}
+
 .about {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 80%;
+    width: 100%;
     padding: 40px;
+    float: left;
 }
 
 .about h2 {
-    float: left;
+    display: inline;
     width: 20%;
     margin-left: 40px;
 }
 
-.about h2 img {
-    border: 3px solid rgb(126, 32, 145);
+.about img {
+    max-height: 300px;
+    border: 2px solid rgb(126, 32, 145);
     border-radius: 50%;
-    float: left;
+    float: right;
 }
 
-.about h2 img p {
+.about p {
     float: right;
-    width: 20%;
-    text-align: center;
+    width: 50%;
+    text-align: inherit;
 }
 
 
 .work {
     padding: 35px;
-    width: 80%;
+    width: 100%;
     float: left;
 }
 
@@ -95,21 +101,21 @@ a {
     /*REPLACE background img when you have pictures to display*/
 }
 
-#second {
+/*#second {}*/
     /*REPLACE*/
-}
 
- #third {
-    /*REPLACE*/
-}
 
-#fourth {
+ /*#third {}*/
     /*REPLACE*/
-}
 
-#fifth {
+
+/*#fourth {}*/
     /*REPLACE*/
-}
+
+
+/*#fifth {}*/
+    /*REPLACE*/
+
 
 .flex-container {
     float: right;
@@ -141,9 +147,10 @@ a {
     margin-top: auto;
     width: 100%;
     background-color: transparent;
+    text-decoration: none;
     color: blueviolet;
     padding: 10px 5px;
-    text-align: center;
+    text-align: start;
 }
 
 
@@ -153,10 +160,23 @@ a {
     padding: 40px 0;
     margin-top: auto;
     float: left;
+    position: bottom;
 }
 
 .contact h2 {
+    display: inline;
     margin-left: 40px;
+    width: 20%;
+}
+
+.contact ul {
+    float: right;
+    width: 70%;
+}
+
+.contact ul li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 
