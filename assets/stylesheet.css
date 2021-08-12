@@ -180,7 +180,84 @@ a:hover {
 }
 
 
+/*media queries--1024*/
+@media screen and (max-width: 1024px) {
+    * {background-color: crimson;}
+
+}
 
 
 
-/*media queries for screen sizes*/
+/*425 screens*/
+@media screen and (max-width: 425px) {
+    * {background-color: tan;}
+    .header nav {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .header ul {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+
+    .header ul li {
+        margin-left: 0;
+        margin: 10px;
+    }
+
+    .about h2, .about p {
+        width: 100%;
+        float: left;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .about img {
+        float: left;
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 15px;
+        max-height: 300px;
+        max-width: 242.44px;
+    }
+
+    .work h2 {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .flex-container {
+        margin-top: 15px;
+        float: left;
+        width: 100%;
+    }
+
+    .contact h2 {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+        text-align: center;
+
+    }
+
+    .contact ul {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+}
