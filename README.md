@@ -17,11 +17,14 @@ I used media queries to make the layout responsive to different screen sizes.
 As this site is to be updated, I left a lot of room and placeholders to be filled in as projects
 are completed.
 
+Screenshot of Application:
+[Portfolio](screenshot.pdf)
+
 Deployed Application:
+[Portfolio](https://pamelac21.github.io/Portfolio/)
 
-    ![Portfolio]("https://github.com/pamelac21/Portfolio/blob/ebda75cf99758153c86f5a13cf35759b42497e27/assets/images/screenshot.pdf")
-    [Portfolio]("assets/images/screenshot.pdf")
 
-    [Portfolio]("https://pamelac21.github.io/Portfolio/")
+
+
 
 
