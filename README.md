@@ -19,8 +19,9 @@ are completed.
 
 Deployed Application:
 
-    ![Portfolio screenshot](assets/images/screenshot.pdf)
+    ![Portfolio]("https://github.com/pamelac21/Portfolio/blob/ebda75cf99758153c86f5a13cf35759b42497e27/assets/images/screenshot.pdf")
+    [Portfolio]("assets/images/screenshot.pdf")
 
-    [Portfolio](https://pamelac21.github.io/Portfolio/)
+    [Portfolio]("https://pamelac21.github.io/Portfolio/")
 
 
