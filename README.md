@@ -18,7 +18,7 @@ As this site is to be updated, I left a lot of room and placeholders to be fille
 are completed.
 
 Screenshot of Application:
-[Portfolio](/assets/images/screencapture.png)
+[Portfolio](assets/images/screencapture.png)
 
 Deployed Application:
 [Portfolio](https://pamelac21.github.io/Portfolio/)
