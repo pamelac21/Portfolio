@@ -103,22 +103,37 @@ a:hover {
 /*MAKE 1ST BOX LARGER THAN THE OTHERS!!!!!*/
 #first {
     width: 100%;
+    background-image: url('../../Portfolio/assets/images/screencapture-shagens-github-io-New-To-Town-2021-09-17-04_01_43.png');
+    background-size: cover;
+    background-position: center;
     /*REPLACE background img when you have pictures to display*/
 }
 
-/*#second {}*/
+#second {    
+    background-image: url('https://via.placeholder.com/500');
+    background-size: cover;
+    background-position: center;}
     /*REPLACE*/
 
 
- /*#third {}*/
+ #third {    
+     background-image: url('https://via.placeholder.com/500');
+    background-size: cover;
+    background-position: center;}
     /*REPLACE*/
 
 
-/*#fourth {}*/
+#fourth {   
+    background-image: url('https://via.placeholder.com/500');
+    background-size: cover;
+    background-position: center;}
     /*REPLACE*/
 
 
-/*#fifth {}*/
+#fifth {    
+    background-image: url('https://via.placeholder.com/500');
+    background-size: cover;
+    background-position: center;}
     /*REPLACE*/
 
 
@@ -129,14 +144,11 @@ a:hover {
     justify-content: space-between;
     width: 70%;
 }
-
+/*boxes 2-5*/
 .flex-item {
     width: 50%;
     border-radius: 16px;
     border: 2px solid blue;
-    background-image: url('https://via.placeholder.com/500');
-    background-size: cover;
-    background-position: center;
     padding: 20px 0;
     min-height: 250px;
     display: flex;
